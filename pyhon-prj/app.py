@@ -9,5 +9,12 @@ def index():
     return render_template('index.html', title="안녕하세요")
 
 
+
+@app.route("/hello")
+def hello():
+    return render_template('index.html', title="안녕하세요")
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
