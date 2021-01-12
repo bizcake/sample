@@ -1,0 +1,1 @@
+json_dict = { 'category': 'food', 'name': 'mcdonalds', 'price': '1000' }
